@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <title>Developer portfolio | Kouhi Aleksi </title>
+    <link rel="stylesheet" href="public/css/html-1-css.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    
+</head>
+<body>
+    <!--
+    <div id="top-jumbotron" class="jumbotron text-center">
+    </div>
+
+    -->
+
+    <nav id="nav" class="navigation">
+        <!-- logo
+        <h1 class="page-logo">
+            <a class="logo" href="#">💩</a>
+        </h1>
+        -->
+        <div class="navigation-div">
+                <!-- links -->
+            <ul class="nav-list">
+                <li class="nav-item">
+                <a class="nav-link" href="#intro">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#BAB-works">Portfolio</a>
+                </li>
+                <!--
+                <li class="nav-item">
+                <a class="nav-link" href="#">About me</a>
+                </li>
+                -->
+            </ul>
+        </div>
+        
+    </nav>
+    
+    <!--MODAL-->
+    <div class="modal" id="image-view">
+        <span class="close-img" onclick="document.getElementById('image-view').style.display='none'">&times;</span>
+        <img id="modal-content">
+    </div>
+    
+    <!--INTRODUCTION-->
+
+    <div class="custom-container" id="container">
+        <div class="row-1 basic" id="intro">
+            <div class="col-sm-10" id="Introduction">
+            
+                <div class="intro-title">
+                    <h2>WELCOME TO MY ONLINE PORTFOLIO</h2>
+                </div>
+                <div class="intro-text">
+                    <h4>
+                        Hi! I'm Aleksi and I like making stuff. <br>
+                        Dosen't matter if it's digital or physical, I'll make it.<br>
+                        However this page is made to showcase some of my digital creations and to tell a little about them.
+                    </h4>
+                </div>
+                <div class="work-info">
+                    <a class="nav-link" href="https://github.com/Oetoekkae "><img src="public/images/github-mark-white.png" style="height:50px;"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--TIMS CAFE-->
+    <div class="row-1 basic-intro" id="BAB-works">
+        <div id="cafe-title-image">
+            <img class="work-title-image" src="public/images/cafelogo.png"/>
+        </div>
+    </div>
+    <div class="row-1 basic" id="works">
+        <div>
+            <div class="worktags">
+                <h4 class="tagtext">FRONT-END</h4>
+                <h4 class="tagtext">GRAPHIC DESING</h4>
+            </div>
+            
+            <div class="work-showcase">
+                <div class="gallery">
+                    <img id="testimg" class="gallery-item" src="public/images/cafehome.png" alt="Tims's cafe homepage" />
+                    <img class="gallery-item" src="public/images/cafemenu.png" alt="Tims's cafe menu" />
+                    <img class="gallery-item" src="public/images/cafeinfo.png" alt="Tims's cafe info" />
+                </div>
+            </div>
+
+            <div class="work-intro-div">
+                <img class="work-intro-chevrons" src="public/images/down-arrow.png" alt="Downward chevrons">
+                <div class="work-info-container">
+                    <div class="work-intro">
+
+                        <p class="work-info-text">
+                            A website for a fictional cafe called Tim's café to showcase what was learned during the first year of my IT studies.<br>
+                            It was made as a group project and involved some JavaScript as well as basic HTML and CSS.<br>
+                            The site is pretty simple, but I still am quite proud about the logo I made for this project.<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="work-info">
+                </div>
+            </div>
+
+            
+
+        </div>
+    </div>
+
+    <!--BUST-A-BLOCK-->
+    <div class="row-1 basic-intro" id="BAB-works">
+        <div id="BAB-title-image">
+            <img class="work-title-image" src="public/images/BustABlock.png"/>
+        </div>
+    </div>
+    <div class="row-1 basic" id="works">
+        <div>
+            <div class="worktags">
+                <h4 class="tagtext">GAME DEVELOPEMENT</h4>
+                <h4 class="tagtext">UNITY</h4>
+                <h4 class="tagtext">C#</h4>
+                <h4 class="tagtext">GRAPHIC DESING</h4>
+            </div>
+
+            <div class="work-showcase">
+                <div class="gallery" id="">
+                    <img class="gallery-item" src="public/images/1.BustEm.png" alt="Bust a Block game's promo image" />
+                    <img class="gallery-item" src="public/images/2.DodgeEm.png" alt="Bust a Block game's promo image" />
+                    <img class="gallery-item" src="public/images/3.Survive.png" alt="Bust a Block game's promo image" />
+                    <img class="gallery-item" src="public/images/4.BeUnstoppable.png" alt="Bust a Block game's promo image" />
+                    <img class="gallery-item" src="public/images/babstorefront.png" alt="Bust a Block store page"/>
+                </div>
+            </div>
+
+            <div class="work-intro-div">
+                <img class="work-intro-chevrons" src="public/images/down-arrow.png" alt="Downward chevrons">
+                <div class="work-info-container">
+                    <div class="work-intro">
+                        <p class="work-info-text">
+                            Bust a block is a little game that started its life as a small part of a bigger group project during my second year in IT studies.<br>
+                            It evolved from a browser game made with react.js into a standalone java version for android and finally into a
+                            full blown mobile game made with unity and C#.<br>
+                            Quite a long journey for a small game, but also a big learning experience for myself.
+                        </p>
+
+                        <div class="extra-info">
+                            <img class="gallery-extra" src="public/gifs/Blockdodge_react.gif" alt="Block dodging game consept made in react"/>
+                            <p>The game started its life as a react component part of a bigger project and can be considered as a proof of consept for further developement <br>
+                            The idea is quite simple; navigate a block through other falling blocks, the longer a player can survive the bigger their score will be <br>
+                            Game was basic and simple, hostile block spawning worked as a group of blocks spawning at the same time and score was calculated from the time stayed alive</p>
+                        </div>
+
+                        <div class="extra-info">
+                            <img class="gallery-extra" src="public/gifs/bab-start.gif" alt="menu view, settings and start view of BUST-A-BLOCK"/>
+                            <p>The current version of the game contains a lot more content. <br>
+                            Main menu is simple with a few settings to change, including the options to enable simplified graphics <br>
+                        </div>
+
+                        <div class="extra-info">
+                            <div>
+                                <img class="gallery-extra-2" src="public/gifs/Fire-demonstration_1.gif" />
+                                <img class="gallery-extra-2" src="public/gifs/Shield-demonstration.gif" />
+                            </div>
+                        </div>
+                        <div>
+                            <p>The game is currently only avaivable for android and can be downloaded from Play Store.</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="work-info">
+                        <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.AjeX.BustABlock"><img src="public/images/gp.png" style="height:25px;"/></a>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    <!--PELIMO-->
+    <div class="row-1 basic-intro" id="BAB-works">
+        <div id="cafe-title-image">
+                <img class="work-title-image" src="public/images/pelimo.png"/>
+        </div>
+    </div>
+    <div class="row-1 basic" id="works">
+        <div>
+
+            <div class="worktags">
+                <h4 class="tagtext">GAME DEVELOPEMENT</h4>
+                <h4 class="tagtext">UNITY</h4>
+                <h4 class="tagtext">C#</h4>
+            </div>
+            
+            <div class="work-showcase">
+                <div class="gallery">
+                    <img class="gallery-item" src="public/images/menuFIN.png" alt="Pelimo menu in finnish" />
+                    <img class="gallery-item" src="public/images/menuSWE.png" alt="Pelimo menu in swedish" />
+                    <img class="gallery-item" src="public/images/peliFIN.png" alt="Pelimo game screenshot finnish" />
+                    <img class="gallery-item" src="public/images/peliSWE.png" alt="Pelimo game screenshot swedish" />
+                    <img class="gallery-item" src="public/images/tavuFIN.png" alt="Minigame screenshot finnish" />
+                    <img class="gallery-item" src="public/images/tavuSWE.png" alt="Minigame screenshot swedish" />
+                </div>
+            </div>
+
+            <div class="work-intro-div">
+                <img class="work-intro-chevrons" src="public/images/down-arrow.png" alt="Downward chevrons">
+                <div class="work-info-container">
+                    <div class="work-intro">
+                        <p class="work-info-text">
+                            Pelimo project was about a learning game aimed towards middle school aged kids.<br>
+                            The aim of the game was to teach kindness towards people from different cultures.
+                        </p>
+                        <p>
+                            I was hired for the project to build a localisation system for the game in order to let Swedish speaking kids enjoy
+                            the game too.<br>
+                            The whole job lasted about two and a half months. During that time, I managed to succesfully create a
+                            localisation system to translate all necessary parts of the game. I also got assigned to create a few minigames for
+                            the game, fixing some general bugs, polishing and adding some features to the final product.
+                        </p>
+
+                        <div class="extra-info">
+                            <div>
+                                <img class="gallery-extra-2" src="public/gifs/HyphenStart_hq.gif" />
+                                <img class="gallery-extra-2" src="public/gifs/HyphenEnd_hq.gif" />
+                            </div>
+                        </div>
+                        <div>
+                            <p>The first minigame was a word puzzle, where player is given just the syllables of a word in a random order<br>
+                            Player then needs to rearrange the syllables to form the original word. <br>
+                            There is a two minute time limit and each correct answer gives a small time bonus, while a wrong answer gives a time penalty.<br>
+                            When the time runs out, score is given and the player can examine how many of their asnwers were right or wrong.</p>
+                        </div>
+
+                        <div class="extra-info">
+                            <img class="gallery-extra" src="public/gifs/DarkRoom_hq.gif" alt=""/>
+                            <p>The Second minigame is another quite simple puzzle game. <br>
+                                Player needs to find a certain object in a really dark scene using a flashlight.<br>
+                                The game gives the player a little hint about the object and that object needs to be found within the given timelimit.
+                                After the object is found, the player is given a little fun fact relating to the object. 
+                            </p>
+                        </div>
+
+                        <p>
+
+                        </p>
+                    </div>
+                    
+                    <div class="work-info">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+    <!--
+    <div id="footer-bottom" class="jumbotron text-center">
+        <p>Nothing important here</p>
+        <div class="col-md-12 text-center">
+            <p>But there could be</p>
+            <p>like</p>
+            <p>&copy;Fuck You Too Inc.</p>
+        </div>
+    </div>
+
+    <div class="col" id="side-col">
+
+    </div>
+    -->
+</body>
+<script src="public/js/imageviewer.js"></script>
+<script src="public/js/js.js"></script>
+</html>
